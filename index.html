@@ -24,7 +24,7 @@
       <div class="row">
 
         <!--Menu-->
-        <div class="navbar  navbar-inverse navbar-fixed-top">
+        <div class="navbar  navbar-default navbar-fixed-top">
             <nav>
               <div class="container-fluid">
                 <div class="navbar-header">
@@ -61,12 +61,12 @@
                   </ul>
                 </div>
 
-                <form class="navbar-form navbar-right collapse navbar-collapse menu-collapse" role="search">
+                <!--form class="navbar-form navbar-right collapse navbar-collapse menu-collapse" role="search">
                     <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
-                  </form>
+                </form-->
               </div>
             </nav>
         </div>
@@ -167,24 +167,45 @@
         </div>
 
         <div class=" conteudo col-md-4">
-          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <ul class="nav nav-tabs nav-justified">
+             <li role="presentation" class="active"><a data-toggle="tab" href="#mais">Mais Vistas </a></li>
+             <li role="presentation"><a data-toggle="tab" href="#ultimas">Ultimas</a></li>
+          </ul>
+          
+          <!--Conteudo Tab-->
+          <div class="tab-content">
+            <div class="tab-pane" id="ultimas">
+              <!--Resumo noticia -->
+              <article>
+                <h3><b> EUA lançam a sua bomba mais potente não nuclear no Afeganistão</b></h3>
+                <p class="text-justify">Os Estados Unidos largaram a bomba não nuclear mais potente do seu arsenal num complexo supostamente usado pelos militantes do Daesh (o autoproclamado Estado Islâmico) no Afeganistão, na fronteira com o Paquistão.<a class="btn btn-link" href="#">Leia Mais</a>
+                </p>
+              </article>
+
+              <article>
+                <h3>EUA lançam a sua bomba mais potente não nuclear no Afeganistão</h3>
+                <p class="text-justify">Os Estados Unidos largaram a bomba não nuclear mais potente do seu arsenal num complexo supostamente usado pelos militantes do Daesh (o autoproclamado Estado Islâmico) no Afeganistão, na fronteira com o Paquistão.<a class="btn btn-link" href="#">Leia Mais</a>
+                </p>
+              </article>
+              <!--/Resumo noticia -->
+            </div>
+
+            <div class="tab-pane active" id="mais">
+              <!--Resumo noticia -->
+              <article>
+                <h3> Em vídeo, Temer diz que jamais tratou de 'negócios escusos' com a Odebrecht</h3>
+                <p class="text-justify">O presidente Michel Temer decidiu se defender publicamente das acusações de que comandou uma reunião, em 2010, para acertar o pagamento de US$ 40 milhões de propina para o PMDB, conforme relataram executivos da Odebrecht.<a class="btn btn-link" href="#">Leia Mais</a></p>
+              </article>
+
+              <article>
+                <h3>"O senhor Marcelo Odebrecht faltou com a verdade", diz Dilma</h3>
+                <p>Em nota divulgada no início da tarde desta quinta-feira, a presidente deposta Dilma Rousseff afirma que nunca pediu à Odebrecht recursos para a campanha e refuta as insinuações de tenha beneficiado a construtora.<a class="btn btn-link" href="#">Leia Mais</a></p>
+              </article>
+              <!--/Resumo noticia -->
+            </div>
+          </div>
+          <!--/Conteudo Tab-->
+
         </div>
 
       </div>
