@@ -7,10 +7,6 @@
 	color: #fff;
 }
 
-
-.mais{
-	margin-top: 30px;
-}
 .navbar-brand img{
 	width: 40px;
 	padding: 5px 0;
@@ -23,7 +19,14 @@
 .conteudo{
 	margin-top: 70px;
 }
-
+/**CONFIG NOTICIA**/
+.noticia{
+	margin:30px 0;
+}
+/**CONFIG BOTAO CARREGAR MAIS**/
+.mais{
+	margin-top: 30px;
+}
 
 /**CONFIG RODAPE**/
 footer{
