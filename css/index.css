@@ -1,3 +1,16 @@
+/**CONFIG BARRA DE MENU **/
+.navbar-default{
+	background-color: #007d94;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+
+.mais{
+	margin-top: 30px;
+}
 .navbar-brand img{
 	width: 40px;
 	padding: 5px 0;
@@ -9,4 +22,18 @@
 
 .conteudo{
 	margin-top: 70px;
+}
+
+
+/**CONFIG RODAPE**/
+footer{
+	margin-top: 100px;
+	background-color: #007d94;
+	color: #fff;
+	padding-top: 50px;
+}
+.rodape-baixo{
+	background-color: #233140;	
+	margin-top: 30px;
+	padding: 20px 0;
 }
